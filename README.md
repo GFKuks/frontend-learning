@@ -11,17 +11,17 @@ However, babel is **required** for React.js, as jsx/tsx files need to be convert
 ## Setup-required packages and their purpose:
 
 Webpack
-`code`npm install webpack webpack-cli webpack-dev-server --save-dev
+`npm install webpack webpack-cli webpack-dev-server --save-dev`
 Webpack HTML plugin, for injecting bundle into HTML file
-`code`npm install html-webpack-plugin --save-dev
+`npm install html-webpack-plugin --save-dev`
 React
-`code`npm install react react-dom
+`npm install react react-dom`
 Babel
-`code`npm install @babel/core babel-loader --save-dev
+`npm install @babel/core babel-loader --save-dev`
 Babel presets for ES2015+ syntax and React
-`code`npm install @babel/preset-env @babel/preset-react --save-dev
+`npm install @babel/preset-env @babel/preset-react --save-dev`
 Tailwind + PostCSS (according to tailwind docs - "most seamless way to integrate with .. webpack")
-`code`npm install -D tailwindcss postcss autoprefixer
+`npm install -D tailwindcss postcss autoprefixer`
 
 
 ## Used guides:
