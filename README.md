@@ -8,6 +8,10 @@ Webpack is used to handle and bundle non-js files. Out of the box, webpack only 
 
 However, babel is **required** for React.js, as jsx/tsx files need to be converted to plain js. Babel requires presets based on the type of javascript we are working with.
 
+## React Router
+
+V6 has notable changes over V5 since last I used it. Layout is provided as pathless element in router, and **must contain** an <Outlet /> element, where actual routes (i.e. elements matched to a path) will be rendered
+
 ## Setup-required packages and their purpose:
 
 Webpack
@@ -28,6 +32,10 @@ Babel presets for ES2015+ syntax and React
 Tailwind + PostCSS (according to tailwind docs - "most seamless way to integrate with .. webpack")
 `npm install -D tailwindcss postcss autoprefixer`
 
+
+## Useful:
+Tailwind cheatsheet
+https://tailwindcomponents.com/cheatsheet/
 
 ## Used guides:
 

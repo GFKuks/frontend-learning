@@ -4,7 +4,8 @@
         "noImplicitAny": true,
         "module": "es6",
         "target": "es5",
-        "jsx": "react",
+        // react-jsx as opposed to react allows avoiding mandatory React import in all jsx/tsx files
+        "jsx": "react-jsx",
         "allowJs": true,
         "moduleResolution": "node",
         "allowSyntheticDefaultImports": true,
