@@ -7,6 +7,11 @@ const router = createBrowserRouter([
     {
         element: <DefaultLayout />,
         children: [
+            
+            {
+                path: "/",
+                element: <HomePage />
+            },
             {
                 path: "/entry",
                 element: <DataEntryPage />
