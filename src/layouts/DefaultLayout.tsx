@@ -1,15 +1,14 @@
 import { Outlet } from "react-router-dom";
-import { Navigation } from "./components";
+import { Footer, Header } from "./components";
 
 export const DefaultLayout = () => (
     <>
-        {/* <header>Very important header information</header> */}
+        <Header />
         <div className="flex bg-gray-50 h-screen">
-            <div className="mx-auto max-w-3xl grow bg-white">
-                <Navigation />
+            <div className="mx-auto max-w-4xl grow bg-white">
                 <Outlet />
             </div>
         </div>
-        {/* <footer>Very important footer information</footer> */}
+        <Footer />
     </>
 )
