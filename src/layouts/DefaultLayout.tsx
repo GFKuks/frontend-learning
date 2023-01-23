@@ -5,7 +5,7 @@ export const DefaultLayout = () => (
     <>
         <Header />
         <div className="flex bg-gray-50 h-screen">
-            <div className="mx-auto max-w-4xl grow bg-white">
+            <div className="mx-auto max-w-4xl grow bg-white p-5">
                 <Outlet />
             </div>
         </div>
