@@ -5,6 +5,4 @@ import { AppRouter } from "./router/AppRouter";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-console.log("test commit");
-
 root.render(<AppRouter />);
