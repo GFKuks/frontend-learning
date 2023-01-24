@@ -1,4 +1,4 @@
-import { getData } from "../api"
+import { useDemoData } from "../store";
 
 const Data = ({ id, value } : {id: number, value: number}) => (
     <tr>
@@ -8,7 +8,7 @@ const Data = ({ id, value } : {id: number, value: number}) => (
 )
 
 export const DataDisplayPage = () => {
-    const data = getData();
+    const data = useDemoData();
     
     return (
         <table>

@@ -51,6 +51,10 @@ https://medium.com/age-of-awareness/setup-react-with-webpack-and-babel-5114a14a4
 Setting up TailwindCSS with React:
 https://dev.to/ivadyhabimana/setup-tailwind-css-in-a-react-project-configured-from-scratch-a-step-by-step-guide-2jc8
 
+React Redux + Redux Typescript quickstart:
+https://react-redux.js.org/tutorials/quick-start
+https://react-redux.js.org/tutorials/typescript-quick-start
+
 ## Further questions:
 
 Do I need module.exports.output in webpack.config.js if html-webpack-plugin injets it into its own tag?
