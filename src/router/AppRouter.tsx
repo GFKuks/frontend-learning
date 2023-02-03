@@ -1,7 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import { DefaultLayout } from "../layouts";
-import { DataDisplayPage, DataEntryPage, HomePage } from "../pages";
+import { NumbersTablePage, UsersPage, HomePage, NumbersSortPage } from "../pages";
 
 const router = createBrowserRouter([
     {
@@ -13,12 +13,16 @@ const router = createBrowserRouter([
                 element: <HomePage />
             },
             {
-                path: "/entry",
-                element: <DataEntryPage />
+                path: "/users",
+                element: <UsersPage />
             },
             {
-                path: "/display",
-                element: <DataDisplayPage />
+                path: "/numbers",
+                element: <NumbersTablePage />
+            },
+            {
+                path: "/numbers/sort",
+                element: <NumbersSortPage />
             },
             {
                 path: "*",

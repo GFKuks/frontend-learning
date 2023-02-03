@@ -50,9 +50,9 @@ module.exports = {
         template: path.join(__dirname, "public", "index.html"),
       }),
     ],
-    // Do I need an output file?
     output: {
         filename: "main.js",
-        path: path.resolve(__dirname, "dist")
+        path: path.resolve(__dirname, "dist"),
+        publicPath: "/",
     },
 }

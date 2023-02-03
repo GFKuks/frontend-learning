@@ -1,3 +1,3 @@
-export * from "./DataEntry";
-export * from "./DataDisplay";
+export * from "./Users";
+export * from "./Numbers";
 export * from "./Home";
